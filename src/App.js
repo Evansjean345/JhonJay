@@ -6,7 +6,7 @@ import Young from './routes/Young';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-white">
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/direct" element={<Direct />} />
