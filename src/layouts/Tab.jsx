@@ -4,25 +4,25 @@ const products = [
   {
     id: 1,
     name: "Faha Jhon Jay",
-    imageSrc: "https://www.youtube-nocookie.com/embed/I2eAoDJndRg",
+    Src: "https://www.youtube-nocookie.com/embed/I2eAoDJndRg",
     color: "emission Tv",
   },
   {
     id: 2,
     name: " La famille DJOUDJOU dans du coq à l’âne",
-    imageSrc: "https://www.youtube-nocookie.com/embed/IFnfNZAcLC4",
+    Src: "https://www.youtube-nocookie.com/embed/IFnfNZAcLC4",
     color: "[C'Midi]",
   },
   {
     id: 3,
     name: "Le Micro-trottoir by Yéyé magazine",
-    imageSrc: "https://www.youtube-nocookie.com/embed/sM2aaoWk1l8",
+    Src: "https://www.youtube-nocookie.com/embed/sM2aaoWk1l8",
     color: "Un Patriote",
   },
   {
     id: 4,
     name: "Le Micro-trottoir by Yéyé magazine",
-    imageSrc: "https://www.youtube-nocookie.com/embed/WgsdhIEPi8k",
+    Src: "https://www.youtube-nocookie.com/embed/WgsdhIEPi8k",
     color: "LEITMOTIV- Invité: John Jay (1ère Partie)",
   },
   // More products...
@@ -42,8 +42,8 @@ export default function Tab() {
               <div key={product.id} className="group relative">
                 <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
                   <iframe
-                    src={product.imageSrc}
-                    className="h-full w-full object-cover object-center lg:h-full lg:w-full rounded-xl"
+                    src={product.Src}
+                    className="h-full w-full lg:h-full lg:w-full rounded-xl"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
                   />
                 </div>
