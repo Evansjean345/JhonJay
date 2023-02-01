@@ -14,20 +14,20 @@ export default function HeroTv() {
           <div id="div-trailer-movies-one">
             <h1 className="sm:text-3xl text-xl">
               <b>
-                Retrouvez vos
+                Retrouvez ici
                 <br />
-                influenceurs et
+                vos meilleures
                 <br />
-                influenceuses ici
+                emissions avec Jhon Jay
               </b>
             </h1>
           </div>
           <div id="div-trailer-movies-two">
             <h1 className="sm:text-3xl text-xl">
               <b>
-                Retrouvez vos
+                Retrouvez ici vos meilleures
                 <br />
-                influenceurs et influenceuses ici
+                emissions avec Jhon Jay
               </b>
             </h1>
           </div>
